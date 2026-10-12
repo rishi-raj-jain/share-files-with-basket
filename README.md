@@ -27,4 +27,4 @@ npm run dev
 
 `.env.local` needs `DATABASE_URL`, `DATABASE_URL_UNPOOLED`, `NEON_API_KEY` (org key), `NEON_ORG_ID`, `CRON_SECRET` and `IP_SALT`. Optional caps: `DROPS_PER_IP_PER_DAY` (default 3) and `MAX_ACTIVE_DROPS` (default 25).
 
-Built by [Rishi](https://github.com/rishi-raj-jain).
+Built by [Rishi](https://x.com/rishi_raj_jain_).

@@ -2,7 +2,7 @@ import HoopUploader from '@/components/hoop-uploader'
 import { NeonMark } from '@/components/neon-logo'
 
 const BLOG = 'https://neon.com/blog/an-agent-provisions-a-neon-backend-a-human-claims-it-later'
-const RISHI = 'https://github.com/rishi-raj-jain'
+const RISHI = 'https://x.com/rishi_raj_jain_'
 
 export default function Home() {
   return (
