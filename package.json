@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "name": "share-files-with-basket",
+  "scripts": {
+    "dev": "dotenvx run -q -f .env.local -- next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:migrate": "dotenvx run -q -f .env.local -- node scripts/migrate.mjs",
+    "format": "prettier --write '**/*' --ignore-unknown"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^2.34.2",
+    "@neondatabase/serverless": "^1.2.0",
+    "next": "16.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-organize-imports": "^4.3.0",
+    "prettier-plugin-tailwindcss": "^0.8.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

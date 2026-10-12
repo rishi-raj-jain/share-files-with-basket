@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: var(--font-google-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-google-sans-code), ui-monospace, monospace;
+  --color-neon: #37c38f;
+}
+
+/* Tailwind v4 resets buttons to the default cursor. Anything clickable gets a pointer. */
+@layer base {
+  a[href],
+  button:not(:disabled),
+  [role='button'],
+  summary,
+  label[for],
+  select {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+}

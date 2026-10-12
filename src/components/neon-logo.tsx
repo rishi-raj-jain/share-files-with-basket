@@ -1,0 +1,7 @@
+export function NeonMark({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 180 180" fill="currentColor" aria-hidden className={className}>
+      <path d="M162 17.5406V162.5L105.812 113.897V162.5H18V17.5L162 17.5406ZM35.6515 144.901H88.1606V75.278L144.349 124.843V35.1348L35.6515 35.1037V144.901Z" />
+    </svg>
+  )
+}
